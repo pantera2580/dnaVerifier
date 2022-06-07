@@ -21,12 +21,15 @@ Desarrolla el algoritmo de la manera más eficiente posible.
 * Se debe considerar los escenarios de erros y códigos http correctos.  
 * Se debe implementar un Front, en Angular 10, 11 o versiones superiores.  
 * Es un plus guarde los ADN’s verificados con la API.  
-* Es un plus exponer un servicio extra que devuelva un Json con las estadísticas de las verificaciones de ADN: {“count_correct_dna”:40, “count_defect_dna”:100: “ratio”:0.4}.  
+* Es un plus exponer un servicio extra que devuelva un Json con las estadísticas de las verificaciones de ADN:   
+{ “count_correct_dna”:40,  
+    “count_defect_dna”: 100  
+    “ratio”: 0.4 }.  
 * Es un plus agregar autenticación mediante username token al proyecto.  
 * Es un plus manejar la arquitectura del proyecto basado en microservicios.  
 * Es un plus test automáticos de fluctuaciones agresivas de trafico.  
 
 Para ejecutar el proyecto es necesario añadir las variables de entorno
-MYSQL_DB_USER = mi_usuario
-export MYSQL_DB_PASSWORD= mi_password
-export JWT_KEY= mi_jwt_key
+MYSQL_DB_USER = mi_usuario  
+MYSQL_DB_PASSWORD= mi_password  
+JWT_KEY= mi_jwt_key  
