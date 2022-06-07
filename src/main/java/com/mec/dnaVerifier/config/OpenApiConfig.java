@@ -11,7 +11,7 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI myOpenAPI() {
         final String securitySchemeName = "bearerAuth";
-        return new OpenAPI().info(new Info().title("Carvajal ebusiness")
+        return new OpenAPI().info(new Info().title("DNA Verifier")
                         .description("This document specifies the API")
                         .version("v1.0"))
                 .addSecurityItem(new SecurityRequirement().addList(securitySchemeName))
